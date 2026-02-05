@@ -11,7 +11,7 @@ pip install lt_reflex_ag_grid_wrapper
 Or install directly from GitHub:
 
 ```bash
-pip install git+https://github.com/your-org/lt_reflex_ag_grid_wrapper.git
+pip install git+https://github.com/lexoterm/lt_reflex_ag_grid_wrapper.git
 ```
 
 ## Quick Start
