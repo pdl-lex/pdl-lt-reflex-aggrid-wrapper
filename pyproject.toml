@@ -28,8 +28,8 @@ classifiers = [
 keywords = ["reflex", "ag-grid", "data-grid", "table", "component"]
 
 [project.urls]
-Homepage = "https://github.com/your-org/lt_reflex_ag_grid_wrapper"
-Repository = "https://github.com/your-org/lt_reflex_ag_grid_wrapper"
+Homepage = "https://github.com/lexoterm/lt_reflex_ag_grid_wrapper"
+Repository = "https://github.com/lexoterm/lt_reflex_ag_grid_wrapper"
 
 [tool.setuptools.packages.find]
 include = ["lt_reflex_ag_grid_wrapper*"]
