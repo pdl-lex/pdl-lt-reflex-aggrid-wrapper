@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lt_reflex_ag_grid_wrapper"
+version = "0.1.0"
+description = "AG Grid Community (v35) wrapper for Reflex"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "reflex>=0.6.0",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Framework :: Reflex",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: User Interfaces",
+]
+keywords = ["reflex", "ag-grid", "data-grid", "table", "component"]
+
+[project.urls]
+Homepage = "https://github.com/your-org/lt_reflex_ag_grid_wrapper"
+Repository = "https://github.com/your-org/lt_reflex_ag_grid_wrapper"
+
+[tool.setuptools.packages.find]
+include = ["lt_reflex_ag_grid_wrapper*"]
