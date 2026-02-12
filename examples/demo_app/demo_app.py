@@ -1,10 +1,10 @@
 """Demo app showcasing the AG Grid Community wrapper for Reflex.
 
 Run with: reflex run
-Requires: pip install lt_reflex_ag_grid_wrapper
+Requires: pip install pdl_lt_reflex_aggrid_wrapper
 """
 import reflex as rx
-from lt_reflex_ag_grid_wrapper import ag_grid
+from pdl_lt_reflex_aggrid_wrapper import ag_grid
 
 
 # -- Sample data --

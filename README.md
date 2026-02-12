@@ -1,24 +1,24 @@
-# lt_reflex_ag_grid_wrapper
+# pdl_lt_reflex_aggrid_wrapper
 
 A comprehensive [AG Grid](https://www.ag-grid.com/) Community (v35) wrapper for the [Reflex](https://reflex.dev/) framework. Provides full access to all AG Grid Community (MIT-licensed) features through a Pythonic API, including sorting, filtering, editing, pagination, row selection, CSV export, drag & drop, theming with dark mode support, and more.
 
 ## Installation
 
 ```bash
-pip install lt_reflex_ag_grid_wrapper
+pip install pdl_lt_reflex_aggrid_wrapper
 ```
 
 Or install directly from GitHub:
 
 ```bash
-pip install git+https://github.com/lexoterm/lt_reflex_ag_grid_wrapper.git
+pip install git+https://github.com/lexoterm/pdl_lt_reflex_aggrid_wrapper.git
 ```
 
 ## Quick Start
 
 ```python
 import reflex as rx
-from lt_reflex_ag_grid_wrapper import ag_grid
+from pdl_lt_reflex_aggrid_wrapper import ag_grid
 
 COLUMN_DEFS = [
     ag_grid.column_def(field="name", header_name="Name", sortable=True, filter=True),
@@ -79,7 +79,7 @@ ag_grid.column_def(
 Group related columns under a shared header:
 
 ```python
-from lt_reflex_ag_grid_wrapper import ag_grid
+from pdl_lt_reflex_aggrid_wrapper import ag_grid
 
 column_defs = [
     ag_grid.col_group_def(

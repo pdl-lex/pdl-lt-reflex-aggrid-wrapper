@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lt_reflex_ag_grid_wrapper"
+name = "pdl_lt_reflex_aggrid_wrapper"
 version = "0.1.0"
 description = "AG Grid Community (v35) wrapper for Reflex"
 readme = "README.md"
@@ -28,8 +28,8 @@ classifiers = [
 keywords = ["reflex", "ag-grid", "data-grid", "table", "component"]
 
 [project.urls]
-Homepage = "https://github.com/lexoterm/lt_reflex_ag_grid_wrapper"
-Repository = "https://github.com/lexoterm/lt_reflex_ag_grid_wrapper"
+Homepage = "https://https://github.com/pdl-lex/pdl-lt-reflex-aggrid-wrapper"
+Repository = "https://https://github.com/pdl-lex/pdl-lt-reflex-aggrid-wrapper"
 
 [tool.setuptools.packages.find]
-include = ["lt_reflex_ag_grid_wrapper*"]
+include = ["pdl_lt_reflex_aggrid_wrapper*"]
